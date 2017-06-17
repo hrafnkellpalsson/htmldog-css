@@ -1,0 +1,63 @@
+#top {
+    background-color: #ccc;
+    padding: 1em
+}
+
+#top h1 {
+    color: #ff0;
+}
+
+#top p {
+    color: red;
+    font-weight: bold;
+}
+
+.intro {
+    color: red;
+    font-weight: bold;
+}
+
+a:active {
+    color: red;
+}
+
+a:hover {
+    text-decoration: none;
+    color: blue;
+    background-color: yellow;
+}
+
+input:focus, textarea:focus {
+    background: #eee;
+}
+
+p:hover {
+  color: green
+}
+
+p:first-child {
+  color: #abcdef
+}
+
+body {
+    background: white url(http://www.htmldog.com/images/bg.gif) no-repeat top right;
+}
+
+li { display: inline }
+
+#navigation a {
+    display: block;
+    padding: 20px 10px;
+}
+
+blockquote:before {
+    content: open-quote;
+    background: red;
+    color: #fc0;
+}
+
+blockquote:after {
+    content: close-quote;
+    background: green;
+    color: #fc0;
+}

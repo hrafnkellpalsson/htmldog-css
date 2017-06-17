@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "Oswald";
+  src: url(https://fonts.googleapis.com/css?family=Oswald);
+}
+
+#marilyn {
+    background: #ccc;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 3px 1px #999;
+    transform: matrix(0.8,-0.35,0.35,0.8,0,0);
+}
+
+#ok_a_border_then {
+    border: 5px solid hsl(36, 100%, 50%);
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    box-shadow: inset 0 0 7px 5px #ddd;
+    transform: scale(1.6,0.8);
+}
+
+#monroe {
+    background: #ccc;
+    width: 150px;
+    height: 60px;
+    border-radius: 6px 12px 18px 24px;
+    font-family: 'Roboto', sans-serif;
+    transform: skew(20deg,10deg);
+}
+
+#nanoo {
+        background: hsl(36,100%,50%);
+        width: 100px;
+        height: 140px;
+        border-radius: 50px/100px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        text-shadow: -2px 2px 2px green;
+        transform: rotate(-10deg);
+}
+
+#contact * {
+    background: magenta;
+}
+
+#child-select > li { border: 1px solid red }
+
+h2 + p { font-weight: bold }
+
+h1 {
+    padding: 50px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/105/814/non_2x/arabic-pattern-vector-background.jpg);
+    color: rgba(0,0,0,0.8);
+}
+
+#font-cray {
+  font-family: 'Oswald', sans-serif
+}
+
+a:link {
+    transition: all 5s linear 2s;
+    color: hsl(36,50%,50%);
+}
+a:hover {
+    color: hsl(36,100%,50%);
+    transition: color 1.2s linear 0.2s;
+}
+
+form {
+  transform: translate(100px,1px) scale(0.7);;
+}
